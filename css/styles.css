@@ -29,6 +29,7 @@ body {
     font-size: 16px;
 }
 
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -66,8 +67,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    color: var(--main-color);
-
+    
     line-height: 1.17;
 }
 
@@ -107,6 +107,10 @@ body {
     letter-spacing: 1.14;
     
     color: var(--main-color);
+}
+
+.carent {
+    color: var(--accent-color);
 }
 
 .header-contact {
@@ -174,11 +178,6 @@ body {
     /* letter-spacing: 0.06em; */
 }
 
-.btn-title:hover,
-.btn-title:focus {
-    background: var(--main-light);
-        color: var(--accent-color);
-}
 
 /* Traits */
 .traits-title {
@@ -187,8 +186,6 @@ body {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
-        color: var(--main-color);
 }
 
 .traits-text {
@@ -293,4 +290,9 @@ body {
         letter-spacing: 0.03em;
     
         color: var(--color-link);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
 }
